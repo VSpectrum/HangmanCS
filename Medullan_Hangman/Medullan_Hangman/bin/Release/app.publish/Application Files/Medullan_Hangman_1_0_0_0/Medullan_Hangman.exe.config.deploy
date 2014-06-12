@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="Medullan_Hangman.Properties.Settings.HandmanDBConnectionString"
+            connectionString="Data Source=|DataDirectory|\HandmanDB.sdf"
+            providerName="Microsoft.SqlServerCe.Client.3.5" />
+        <add name="Medullan_Hangman.Properties.Settings.HangmanDBConnectionString"
+            connectionString="Data Source=|DataDirectory|\HangmanDB.sdf"
+            providerName="Microsoft.SqlServerCe.Client.3.5" />
+    </connectionStrings>
+</configuration>
